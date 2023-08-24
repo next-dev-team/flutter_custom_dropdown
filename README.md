@@ -125,7 +125,7 @@ class _CustomDropdownExampleState extends State<CustomDropdownExample> {
 
 ## Preview
 
-![Example App](https://github.com/AbdullahChauhan/custom-dropdown/blob/master/readme_assets/preview.gif)
+![Example App](https://github.com/sithvothykiv/flutter_custom_dropdown/blob/master/readme_assets/preview.gif)
 
 <hr>
 
