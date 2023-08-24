@@ -132,7 +132,4 @@ class _CustomDropdownExampleState extends State<CustomDropdownExample> {
 ## Todos
 
 - [ ] Dropdown field/header builder.
-
-## Issues & Feedback
-
-Please file an [issue](https://github.com/AbdullahChauhan/custom-dropdown/issues) to send feedback or report a bug. Thank you!
+- [ ] Only when Tapped on any GestureDetector displaying the dropdown
