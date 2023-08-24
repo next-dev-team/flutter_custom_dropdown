@@ -1,0 +1,22 @@
+name: animated_custom_dropdown
+description: Custom dropdown widget allows to add highly customizable widget in your projects with proper open and close animations and also comes with form required validation.
+version: 1.5.0
+homepage: https://github.com/AbdullahChauhan/custom-dropdown
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+
+funding:
+  - https://buymeacoffee.com/abdullahchauhan
