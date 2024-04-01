@@ -224,6 +224,7 @@ class _CustomDropdownState extends State<CustomDropdown> {
           ),
           /* child: _DropDownField(
             controller: widget.controller,
+            onTap: showCallback,
             style: selectedStyle,
             borderRadius: widget.borderRadius,
             borderSide: widget.borderSide,
