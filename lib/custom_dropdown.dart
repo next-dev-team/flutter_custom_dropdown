@@ -51,10 +51,13 @@ class CustomDropdown extends StatefulWidget {
   // ignore: library_private_types_in_public_api
   final _ListItemBuilder? listItemBuilder;
 
+  final VoidCallback? onTap;
+  
   CustomDropdown({
     Key? key,
     required this.items,
     required this.controller,
+    this.onTap, 
     this.hintText,
     this.hintStyle,
     this.selectedStyle,
@@ -91,6 +94,7 @@ class CustomDropdown extends StatefulWidget {
     Key? key,
     required this.items,
     required this.controller,
+    this.onTap, 
     this.hintText,
     this.hintStyle,
     this.listItemBuilder,
@@ -204,7 +208,12 @@ class _CustomDropdownState extends State<CustomDropdown> {
         return CompositedTransformTarget(
           link: layerLink,
           child: GestureDetector(
-            onTap: showCallback,
+            onTap: () {
+              if (widget.onTap != null) {
+                widget.onTap!();
+              }
+              showCallback();
+            },
             child: Container(
               height: 40,
               child: Text(
