@@ -131,6 +131,7 @@ class CustomDropdown extends StatefulWidget {
     Key? key,
     required this.controller,
     required this.futureRequest,
+    this.onTap, 
     this.futureRequestDelay,
     this.items,
     this.hintText,
